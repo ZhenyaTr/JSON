@@ -1,1 +1,12 @@
-
+{
+	"id":1,
+	"summary":"the button on the registration page is not pressed after entering valid data",
+	"version bild":325,
+	"severity":"Blocker",
+	"priority":"High",
+	"Status":"new",
+	"Author":"Maximov",
+	"Assigned To":"Tutunov",
+	"Description":"Chrome 98.0.4758.102 64 bit Windows 10",
+	"Attachment":"http//..."
+}
