@@ -1,0 +1,83 @@
+GIT Homework 1
+
+Для выполнения задания у вас должен быть установлен для Windows - GitBash.
+Создан аккаунт в GitHub
+
+Все шаги сценария выполняйте в терминале GitBush, Terminal, в папке под гитом.
+
+
+Как отправить ДЗ на проверку.
+ 1. Создайте текстоовый файл как в первом ДЗ по Terminal.
+ 2. Сценарий перенесите в этот файл.
+ 3. На против каждого действия - напишите команду в GitBash
+
+Файл со сценарием и ссылку на свой гит хаб отправляйте менторам на проверку.
+
+JSON
+ 4. Создать внешний репозиторий c названием JSON.=== Create a new repository JSON.
+ 5. Клонировать репозиторий JSON на локальный компьютер. === git clone https://github.com/ZhenyaTr/JSON.git
+ 6. Внутри локального JSON создать файл “new.json”. === cd JSON/, touch new.json
+ 7. Добавить файл под гит. === git add new.json
+ 8. Закоммитить файл. === git status.  git commit new.json -m "new.json create"
+ 9. Отправить файл на внешний GitHub репозиторий. === git push
+ 10. Отредактировать содержание файла “new.json” - 
+ написать информацию о себе (ФИО, возраст, количество домашних животных,
+ будущая желаемая зарплата). Всё написать в формате JSON. === vim new.json, в vim I 
+ {
+        "name":"Ivan Ivanovosh Ivanov",
+        "age":25,
+        "animals":5,
+        "salary":1000
+}
+Esc, : wq
+
+ 11. Отправить изменения на внешний репозиторий. === git status, git add new.json, 
+ git commit new.json -m "add fotmat json", git push
+
+ 12. Создать файл preferences.json === touch preferences.json
+
+ 13. В файл preferences.json добавить информацию о своих предпочтениях 
+ (Любимый фильм, любимый сериал, любимая еда, любимое время года, 
+ сторона которую хотели бы посетить) в формате JSON. === vim preferences.json, в vim I  
+ {
+        "Favorite movie":"Kin-Dza-Dza",
+        "favorite series":"Bridge",
+        "favorite food":"pasta",
+        "favorite time of year":"summer",
+        "country":"New Zealand"
+}
+Esc, : wq
+ 
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+ === touch sklls.json,
+ vim sklls.json, в vim I
+ {
+        "skills":"Postman Jmeter CheckLists Bag Reports SQL Charles Mobile testing"
+}
+Esc, : wq 
+ 
+ 15. Отправить сразу 2 файла на внешний репозиторий. === git status,  git add ., 
+ git commit -m "add  2 files", git push
+  
+ 16. На веб интерфейсе создать файл bug_report.json. === Add file bug_report.json 
+ 
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === Commit new file
+ 
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+ === в файле bug_report.json выбрать Edit this file вставить баг репорт
+ {
+	"id":1,
+	"summary":"the button on the registration page is not pressed after entering valid data",
+	"version bild":325,
+	"severity":"Blocker",
+	"priority":"High",
+	"Status":"new",
+	"Author":"Maximov",
+	"Assigned To":"Tutunov",
+	"Description":"Chrome 98.0.4758.102 64 bit Windows 10",
+	"Attachment":"http//..."
+}
+ 
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе. ==== Commit changes
+ 
+ 20. Синхронизировать внешний и локальный репозиторий JSON === git pull на внешнем в git bush
